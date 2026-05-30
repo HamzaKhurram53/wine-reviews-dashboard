@@ -12,16 +12,16 @@ import pandas as pd
 
 # ── Color Palette ──────────────────────────────────────────────────────────────
 GOLD = "#C9A84C"
-DARK_BG = "#0B1120"
-CARD_BG = "#141B2D"
-TEXT_COLOR = "#E8E0D0"
-TEAL = "#2A6B5E"
-GRID_COLOR = "#1E2A3E"
+DARK_BG = "#1A0A10"
+CARD_BG = "#2B131B"
+TEXT_COLOR = "#F0E0DC"
+TEAL = "#A23B4E"  # repurposed: burgundy rose secondary accent
+GRID_COLOR = "#3A1A24"
 
 PALETTE = [
-    "#C9A84C", "#2A6B5E", "#D4AF37", "#3D8B74", "#8B6914",
-    "#4A9E85", "#B8941F", "#245E4A", "#E6C35C", "#1A4A3D",
-    "#F0D878", "#5AB89A", "#A07D10", "#6ECBAD", "#705B0A",
+    "#C9A84C", "#A23B4E", "#D4A574", "#7B2A3F", "#E6C35C",
+    "#8B1E32", "#C8927A", "#B8941F", "#5E1626", "#F0D878",
+    "#6E1A2C", "#D4AF37", "#A4564A", "#8B6914", "#3A0E18",
 ]
 
 def _apply_dark_style(ax, fig):

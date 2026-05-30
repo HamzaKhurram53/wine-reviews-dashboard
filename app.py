@@ -28,21 +28,21 @@ st.markdown("""
 
 /* Main background */
 .stApp {
-    background-color: #0B1120;
+    background-color: #1A0A10;
 }
 
 /* Sidebar */
 [data-testid="stSidebar"] {
-    background-color: #0F1629 !important;
+    background-color: #220E15 !important;
     border-right: 1px solid rgba(201, 168, 76, 0.15);
 }
 [data-testid="stSidebar"] * {
-    color: #E8E0D0 !important;
+    color: #F0E0DC !important;
 }
 
 /* Header */
 header[data-testid="stHeader"] {
-    background-color: #0B1120 !important;
+    background-color: #1A0A10 !important;
 }
 
 /* All headings */
@@ -61,19 +61,19 @@ h2, h3 {
 /* Body text */
 p, span, label, .stMarkdown, div {
     font-family: 'Lato', sans-serif !important;
-    color: #E8E0D0;
+    color: #F0E0DC;
 }
 
 /* Metric cards */
 [data-testid="stMetric"] {
-    background: linear-gradient(135deg, #141B2D 0%, #0F1629 100%);
+    background: linear-gradient(135deg, #2B131B 0%, #220E15 100%);
     border: 1px solid rgba(201, 168, 76, 0.25);
     border-radius: 10px;
     padding: 16px 20px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
 }
 [data-testid="stMetric"] label {
-    color: #9A8C72 !important;
+    color: #B89A8C !important;
     font-size: 0.8rem !important;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -90,15 +90,15 @@ p, span, label, .stMarkdown, div {
 .stMultiSelect > div > div,
 .stTextInput > div > div > input,
 .stSlider > div {
-    background-color: #141B2D !important;
+    background-color: #2B131B !important;
     border-color: rgba(201, 168, 76, 0.2) !important;
-    color: #E8E0D0 !important;
+    color: #F0E0DC !important;
 }
 
 /* Buttons */
 .stButton > button {
     background: linear-gradient(135deg, #C9A84C 0%, #8B6914 100%) !important;
-    color: #0B1120 !important;
+    color: #1A0A10 !important;
     border: none !important;
     border-radius: 6px !important;
     font-weight: 600 !important;
@@ -125,7 +125,7 @@ hr {
 }
 .stTabs [data-baseweb="tab"] {
     background-color: transparent !important;
-    color: #9A8C72 !important;
+    color: #B89A8C !important;
     border-radius: 6px 6px 0 0;
     padding: 8px 20px;
     font-family: 'Lato', sans-serif !important;
@@ -156,7 +156,7 @@ hr {
 
 /* Chart containers */
 .stPlotlyChart, [data-testid="stImage"], .stPyplot {
-    background: #141B2D;
+    background: #2B131B;
     border: 1px solid rgba(201, 168, 76, 0.12);
     border-radius: 10px;
     padding: 4px;
@@ -164,7 +164,7 @@ hr {
 
 /* Scrollbar */
 ::-webkit-scrollbar { width: 6px; }
-::-webkit-scrollbar-track { background: #0B1120; }
+::-webkit-scrollbar-track { background: #1A0A10; }
 ::-webkit-scrollbar-thumb { background: #C9A84C44; border-radius: 3px; }
 </style>
 """, unsafe_allow_html=True)
@@ -243,7 +243,7 @@ filtered_df = apply_filters(df, filters_dict)
 st.markdown("""
 <div style="text-align:center; padding: 1rem 0 0.5rem 0;">
     <h1 style="font-size: 2.4rem; margin-bottom: 0.2rem;">🍷 Wine Reviews Dashboard</h1>
-    <p style="color: #9A8C72; font-size: 1rem; font-style: italic; margin-top: 0;">
+    <p style="color: #B89A8C; font-size: 1rem; font-style: italic; margin-top: 0;">
         Exploring {total:,} wine reviews from Wine Enthusiast · {countries} countries · {varieties} varieties
     </p>
 </div>
@@ -335,7 +335,7 @@ with col10:
 # ── Footer ────────────────────────────────────────────────────────────────────
 st.markdown("---")
 st.markdown("""
-<div style="text-align:center; padding: 1rem 0; color: #9A8C72;">
+<div style="text-align:center; padding: 1rem 0; color: #B89A8C;">
     <p style="font-size: 0.85rem;">
         Wine Reviews Dashboard · Data: Wine Enthusiast · Built with Streamlit, Pandas, Matplotlib & Seaborn
     </p>
